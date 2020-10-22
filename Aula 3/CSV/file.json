@@ -1,0 +1,38 @@
+[
+    {
+       "nome":"Ricardo",
+       "idade":31,
+       "interesses":[
+          "Jogar bola",
+          "Assistir TV",
+          "Trocar figurinhas"
+       ]
+    },
+    {
+       "nome":"Rayanne",
+       "idade":26,
+       "cursos":[
+          {
+             "nome_do_curso":"Javascript",
+             "nota":85,
+             "carga":15,
+             "bibliografia":[
+                "ECMA 262",
+                "Introdução ao Javascript"
+             ]
+          },
+          {
+             "nome_do_curso":"Rust",
+             "nota":92,
+             "carga":30,
+             "bibliografia":[
+                "Aprendendo Rust"
+             ]
+          }
+       ]
+    },
+    {
+       "nome":"Adriane",
+       "idade":19
+    }
+ ]
