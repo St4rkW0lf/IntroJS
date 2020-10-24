@@ -8,15 +8,11 @@ const tabela = csv_loader(csv);
 console.log(tabela);
 */
 
-
-
 const file = await Deno.readTextFile('./file.json');
 
 const json = JSON.parse(file);
 
 console.log(json[0].interesses[1]);
-
-
 
 const Carlos = {
     nome:"Carlos",

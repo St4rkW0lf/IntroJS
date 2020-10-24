@@ -8,5 +8,4 @@ export function csv_loader(text, column_separator = ";", line_separator = "\n"){
                 .split(column_separator)
                 .map(cell => cell.trim())
         )
-
 }
