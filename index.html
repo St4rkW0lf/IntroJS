@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Municípios - Leaflet</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        
+        <link rel="stylesheet" href="./libraries/leaflet/leaflet.css">
+        <script src="./libraries/leaflet/leaflet.js"></script>
+        
+        <script type="module" src="./scripts/main.js"></script>
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>Densidade populacional - municípios brasileiros</h1>
+        </header>
+        <aside id="main-controls">
+            <ul>
+                <li>
+                    <label for="lat-lon">Latitude e longitude: </label>
+                </li>
+                <li>
+                    <input type="text" name="lat-lon" id="lat-lon" placeholder="-15.45, -54.00">
+                </li>
+                <li>
+                    <label for="zoom">Zoom level: </label>
+                </li>
+                <li>
+                    <input type="range" name="zoom" id="zoom-level" min="4" max="10" step="1">
+                </li>
+                <li>
+                    <input type="button" id="update" value="Update">
+                </li>
+            </ul>
+        </aside>
+        <main id="main-view">
+            <div id="leaflet-map"></div>
+        </main>
+    </body>
+</html>
